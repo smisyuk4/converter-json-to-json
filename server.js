@@ -1,9 +1,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 
-// const NAME_FILE = 'react-quiz.json'
-// const NAME_FILE = 'javaScript-quiz.json'
-const NAME_FILE = 'html-css-quiz.json'
+const NAME_FILE = 'name.json'
 
 const pathFile = path.join(__dirname, 'oldFiles', NAME_FILE);
 
